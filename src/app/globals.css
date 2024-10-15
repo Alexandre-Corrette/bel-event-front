@@ -5,6 +5,8 @@
 :root {
   --background: #f2eee7;
   --foreground:#20234a;
+  --title: #20234a;
+  --paragraph:#42727c;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,11 +19,23 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Afacad Flux, Helvetica, sans-serif;
+  font-family: Afacad, Helvetica, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer base {
+  h1{
+    @apply font-ProximaNova text-[var(--title)];
+  }
+  li {
+    @apply font-QuickSand font-bold text-[var(--paragraph)];
+  }
+  a { 
+    @apply font-ProximaNova text-[var(--paragraph)]
   }
 }

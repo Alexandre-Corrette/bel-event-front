@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+        ProximaNova:["Proxima Nova","sans-serif"],
+        QuickSand:["QuickSand"]
+      }
     },
   },
   plugins: [],

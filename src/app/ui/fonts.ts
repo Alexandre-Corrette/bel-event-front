@@ -1,4 +1,5 @@
-import { Afacad } from 'next/font/google';
+import { Afacad, Quicksand } from 'next/font/google';
 
 export const afacad = Afacad({ weight: ['400', '700'], subsets: ['latin'] });
+export const quicksand = Quicksand({weight:['300'], subsets:['latin']});
 

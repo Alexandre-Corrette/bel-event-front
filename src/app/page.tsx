@@ -13,8 +13,8 @@ export default function Home() {
           priority
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left ">
-          <li className="mb-2">
-            Get started by editing{" "}
+          <li className="mb-2 font-ProximaNova font-bold">
+            BEL EVENT FRONT{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               app/page.tsx
             </code>
