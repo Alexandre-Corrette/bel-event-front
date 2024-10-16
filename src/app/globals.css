@@ -35,7 +35,7 @@ body {
   li {
     @apply font-QuickSand font-bold text-[var(--paragraph)];
   }
-  a { 
-    @apply font-ProximaNova text-[var(--paragraph)]
+  a, option { 
+    @apply font-ProximaNova text-[var(--paragraph)] capitalize
   }
 }
